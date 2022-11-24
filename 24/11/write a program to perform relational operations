@@ -1,0 +1,19 @@
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
+print(a!=b)
+print(a==b)
+
+output:
+enter a number 56
+56
+enter a number52
+True
+False
+True
+False
+True
+False
