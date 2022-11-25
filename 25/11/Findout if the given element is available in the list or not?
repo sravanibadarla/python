@@ -1,0 +1,37 @@
+def minimum(nums,n = 1):
+  return sorted(nums, reverse = False)
+nums=[1,2,3]
+print("Original list elements:")
+print(nums)
+print("Minimum values of  list:",minimum(nums))
+nums=[1,2,3]
+print("\nfirst list elements:")
+print(nums)
+print("Two minimum values of  list:",minimum(nums,2))
+nums=[-2,-3,-1,-2,-4,0,-5]
+print("\nsecond list elements:")
+print(nums)
+print("Third minimum values of  list:",minimum(nums,3))
+nums=[2.2, 2, 3.2, 4.5, 4.6, 5.2, 2.9]
+print("\nOriginal list elements:")
+print(nums)
+print("minimum values of list:", minimum(nums,2))
+
+output:
+
+Original list elements:
+[1, 2, 3]
+Minimum values of  list: [1, 2, 3]
+
+first list elements:
+[1, 2, 3]
+Two minimum values of  list: [1, 2, 3]
+
+second list elements:
+[-2, -3, -1, -2, -4, 0, -5]
+Third minimum values of  list: [-5, -4, -3, -2, -2, -1, 0]
+
+Original list elements:
+[2.2, 2, 3.2, 4.5, 4.6, 5.2, 2.9]
+minimum values of list: [2, 2.2, 2.9, 3.2, 4.5, 4.6, 5.2]
+> 
