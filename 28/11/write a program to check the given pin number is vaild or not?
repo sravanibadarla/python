@@ -1,0 +1,15 @@
+n=int(input("enter any values:"))
+print(n)
+pin=3131
+if(pin==n):
+     print("valid pin")
+     print("transaction is continue")
+else:
+    print("invalid pin")
+    print("please try again")
+    
+    output:
+    enter any values:1512
+1512
+invalid pin
+please try again
