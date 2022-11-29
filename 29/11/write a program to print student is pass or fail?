@@ -1,0 +1,33 @@
+sno=int(input('enter sno:'))
+sname=input('enter student name:')
+group=input('enter course name:')
+s1=int(input('enter english marks:'))
+s2=int(input('enter python marks:'))
+s3=int(input('enter computer marks:'))
+total=s1+s2+s3
+avg=total/3
+print('sno:',sno)
+print('name:',sname)
+print('Group:',group)
+print('Total:',total)
+if avg>=35:
+   print("pass")
+elif avg>=35:
+    print("pass")
+elif avg>=35:
+    print("pass")
+else:
+    print("fail")
+    
+    output:
+    enter sno:1
+enter student name:IRFAN
+enter course name:mpcs
+enter english marks:12
+enter python marks:15
+enter computer marks:11
+sno: 1
+name: IRFAN
+Group: mpcs
+Total: 38
+fail
