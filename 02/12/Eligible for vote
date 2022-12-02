@@ -1,0 +1,14 @@
+def vote():
+    if v>=18:
+     print('Yes')
+    else:
+     print('No')
+print('**Model 1***\n')
+v=int(input('Enter the age:'))
+vote()
+output:
+ Eligible for vot by using functions
+ **Model 1***
+
+Enter the age:18
+Yes
