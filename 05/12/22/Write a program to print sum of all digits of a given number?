@@ -1,0 +1,12 @@
+def getSum(n):
+    
+    sum = 0
+    for digit in str(n): 
+      sum += int(digit)      
+    return sum
+   
+n = 345
+print(getSum(n))
+
+output:
+12
