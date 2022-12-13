@@ -1,0 +1,22 @@
+l=[]
+n=int(input('enter number:'))
+for i in range(n):
+    x=int(input('enter elements:'))
+    l.append(x)
+print(l)
+print(l[0])
+print(l[2])
+print(l[4])
+     
+     
+output:
+enter number:5
+enter elements:4
+enter elements:3
+enter elements:5
+enter elements:7
+enter elements:9
+[4, 3, 5, 7, 9]
+4
+5
+9
