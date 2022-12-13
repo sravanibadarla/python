@@ -1,0 +1,21 @@
+l=[]
+n=int(input('enter number:'))
+for i in range(n):
+    x=int(input('enter elements:'))
+    l.append(x)
+print(l)
+print(max(l))
+print(min(l))
+     
+     
+output:
+enter number:6
+enter elements:7
+enter elements:4
+enter elements:9
+enter elements:3
+enter elements:0
+enter elements:3
+[7, 4, 9, 3, 0, 3]
+9
+0
