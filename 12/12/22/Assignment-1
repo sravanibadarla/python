@@ -1,0 +1,31 @@
+from tkinter import*
+fb=Tk()
+fb.title("aditya login");
+Label(fb,text="Enter student regid:").grid(row=0)
+Label(fb,text="student name:").grid(row=1)
+Label(fb,text="father name:").grid(row=2)
+Label(fb,text="group:").grid(row=3)
+Label(fb,text="phone number:").grid(row=4)
+Label(fb,text="email id:").grid(row=5)
+Label(fb,text="address:").grid(row=6)
+Entry(fb).grid(row=0,column=1)
+Entry(fb).grid(row=1,column=1)
+Entry(fb).grid(row=2,column=1)
+Entry(fb).grid(row=3,column=1)
+Entry(fb).grid(row=4,column=1)
+Entry(fb).grid(row=5,column=1)
+Entry(fb).grid(row=6,column=1)
+Button(fb,text="submit").grid(row=7)
+Button(fb,text="cancel").grid(row=7,column=1)
+mainloop()
+
+
+output:
+enter student regid:[             ]
+student name       :[             ]
+father name        :[             ]
+group              :[             ]
+phone number       :[             ]
+email id           :[             ]
+address            :[             ]
+submit               cancel
