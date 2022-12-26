@@ -1,0 +1,9 @@
+Test_list = [1, 2, 3, 4, 5]
+Test_list.reverse()
+print(Test_list)
+
+New_list = Test_list.reverse()
+print(New_list)
+
+output:
+[5, 4, 3, 2, 1]
